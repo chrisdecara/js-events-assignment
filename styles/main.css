@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+    }
+    * {
+    box-sizing: inherit;
+    }
+
+body {
+    text-align: center;
+    background-color: #947E6E;
+    margin: 3em 6em;
+    font-family: "Mulish", Verdana, sans-serif;
+}
+
+#fulldiv {
+    background-color: #A78E7C;
+    padding: 1em 2em;
+}
+
+h1 {
+    font-family: "Libre Baskerville", "Times New Roman", serif;
+    color: #fff;
+}
+
+.image {
+    max-width: 100%;
+    left: 0px;
+    right: 0px;
+    display: block;
+    margin: auto;
+    padding-top: 1em;
+}
+
+#clownmessage, #mainparagraph {
+    padding-bottom: 1em;
+}
+
+.caption {
+    padding-bottom: .5em;
+}
+
+footer {
+    padding-top: 2em;
+}
+
+#intro {
+    background-color: #6F5E52;
+    padding: 1.2em;
+}
+
+@media screen and (max-width: 630px) {
+    body {
+        margin: 0;
+    }
+    #fulldiv {
+        font-size: 1em;
+        padding: .5em;
+    }
+    #intro {
+        padding: .5em;
+    }
+    .image {
+        max-width: 80%;
+    }
+} 
